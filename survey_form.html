@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a {
+            margin-left: 20px;
+        }
+        .b {
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+        .c {
+            margin-left: 35px;
+            margin-bottom: 20px;
+        }
+        .d {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+        .e {
+            margin-left: 115px;
+            margin-bottom: 20px;
+        }
+        .f {
+            margin-left: 80px;
+            margin-bottom: 10px
+        }
+        .g {
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+        .h {
+            margin-left: 90px; 
+            margin-bottom: 20px;
+        }
+        .i {
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h5>Survey Form</h5>
+        <div>
+            <h1 class="a">Employee Interest Survey Form</h1>
+
+            <form>
+                <div class="b">
+                    <label for="fname">
+                    Enter your name:
+                    </label>
+                    <input type="text" id="fname"name="fname" value="" size="33">
+                </div>
+                
+                <div class="c">
+                    <label for="department">
+                    Enter your department:
+                    </label>
+                    <input type="text" id="department" name="department" value="" size="34">
+                </div>
+                
+                <div class="d">
+                    <label>
+                        Tell us a little about yourself:
+                    </label>
+                    <textarea name="message" rows="5" cols="27">
+                    Enter your message here.
+                    </textarea>     
+                </div>
+
+                <div class="e">
+                    <label>
+                    Do you exercise at home?
+                    </label>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Yes</label>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">No</label>
+                </div>
+
+                <div class="f">
+                    <label>
+                        How do you like to read about your favorite topics?<br>
+                    </label>
+                </div>
+                <div class="g">
+                    <input type="checkbox" id="fruit1" name="fruit1" value="Apple">
+                    <label for="fruit1">Books</label>
+                    <input type="checkbox" id="fruit2" name="fruit2" value="Mango">
+                    <label for="fruit2">Online resources</label>
+                    <input type="checkbox" id="fruit3" name="fruit3" value="Orange">
+                    <label for="fruit3">Phone apps</label>
+                    <input type="checkbox" id="fruit3" name="fruit3" value="Orange">
+                    <label for="fruit3">Magazines</label>
+                </div>
+                
+                <div class="h">
+                    <label for="genre">What genre of movies do you like?</label>
+                    <select id="genre" name="genre" size="1">
+                    <option value="comedy">Comedy</option>
+                    </select>
+                </div>
+
+                <div class="i">
+                    <input type="submit" value="Submit Form">
+                </div>
+
+            </form>
+                    
+        </div> 
+    </div>
+</body>
+</html>
